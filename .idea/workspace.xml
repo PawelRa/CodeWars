@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="stringToArray">
-      <change afterPath="$PROJECT_DIR$/src/ReversedArray.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="ReversedArray">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paweł Ratajski/Documents/Programowanie/codewars&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Programowanie/java/zajavka/kod/Zajavka"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662974942955</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ReversedArray">
+      <created>1663097655143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663097655143</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +138,7 @@
     <MESSAGE value="stringToArray" />
     <MESSAGE value="MixedSum" />
     <MESSAGE value="SumArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="SumArray" />
+    <MESSAGE value="ReversedArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReversedArray" />
   </component>
 </project>
