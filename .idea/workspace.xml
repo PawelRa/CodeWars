@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="stringToArray">
-      <change afterPath="$PROJECT_DIR$/src/ReversedArray.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="YesOrNo">
+      <change afterPath="$PROJECT_DIR$/src/CalculateAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
