@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="YouOnlyNeedOne">
-      <change afterPath="$PROJECT_DIR$/src/TotalAmountOfPoints.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="BetterThanAverage">
+      <change afterPath="$PROJECT_DIR$/src/BinaryAddition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Programowanie/java/zajavka/kod/Zajavka"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paweł Ratajski/Documents/Programowanie/Zajavka&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.BinaryAddition">
+    <configuration name="BinaryAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryAddition" />
+      <module name="codewars" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="codewars" />
@@ -49,6 +56,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryAddition" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -111,21 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662974942955</updated>
     </task>
-    <task id="LOCAL-00008" summary="CalculateAverage">
-      <created>1663950111238</created>
+    <task id="LOCAL-00008" summary="BetterThanAverage">
+      <created>1663242268294</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1663950111238</updated>
+      <updated>1663242268294</updated>
     </task>
-    <task id="LOCAL-00009" summary="YouOnlyNeedOne">
-      <created>1664002956992</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664002956992</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,8 +147,7 @@
     <MESSAGE value="stringToArray" />
     <MESSAGE value="MixedSum" />
     <MESSAGE value="SumArray" />
-    <MESSAGE value="CalculateAverage" />
-    <MESSAGE value="YouOnlyNeedOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="YouOnlyNeedOne" />
+    <MESSAGE value="BetterThanAverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="BetterThanAverage" />
   </component>
 </project>
