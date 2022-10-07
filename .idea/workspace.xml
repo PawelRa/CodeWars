@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="MaxArrayValue">
-      <change afterPath="$PROJECT_DIR$/src/StringTaNumber.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="StringToNumber">
+      <change afterPath="$PROJECT_DIR$/src/DescendingOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Paweł Ratajski/Documents/Programowanie/Zajavka&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringToNumber">
+  <component name="RunManager" selected="Application.DescendingOrder">
     <configuration name="BinaryAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryAddition" />
       <module name="codewars" />
@@ -47,8 +47,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="DescendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DescendingOrder" />
       <module name="codewars" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DescendingOrder" />
         <item itemvalue="Application.StringToNumber" />
         <item itemvalue="Application.MaxArrayValue" />
         <item itemvalue="Application.SmallestIntegerFinder" />
         <item itemvalue="Application.BinaryAddition" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665036564847</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="StringToNumber">
+      <created>1665140060578</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140060578</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +202,7 @@
     <MESSAGE value="BetterThanAverage" />
     <MESSAGE value="BinaryAddition" />
     <MESSAGE value="SmallestIntegerFinder" />
-    <option name="LAST_COMMIT_MESSAGE" value="SmallestIntegerFinder" />
+    <MESSAGE value="StringToNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringToNumber" />
   </component>
 </project>
