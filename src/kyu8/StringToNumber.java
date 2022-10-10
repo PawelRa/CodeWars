@@ -1,3 +1,5 @@
+package kyu8;
+
 public class StringToNumber {
     public static void main(String[] args) {
         System.out.println(stringToNumber("12345"));

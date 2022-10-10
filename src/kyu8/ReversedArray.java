@@ -1,3 +1,5 @@
+package kyu8;
+
 import java.util.Arrays;
 
 public class ReversedArray {

@@ -1,3 +1,5 @@
+package kyu8;
+
 public class SmallestIntegerFinder {
     public static int findSmallestInt(int[] args) {
         int result = args[0];

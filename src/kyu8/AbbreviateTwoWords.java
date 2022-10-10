@@ -1,3 +1,5 @@
+package kyu8;
+
 public class AbbreviateTwoWords {
     public static void main(String[] args) {
         System.out.println(AbbreviateTwoWords.abbrevName("Sam Harris"));

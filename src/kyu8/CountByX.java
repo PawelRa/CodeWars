@@ -1,3 +1,5 @@
+package kyu8;
+
 public class CountByX {
     public static int[] counter(int x, int y) {
         int[] result = new int[y];

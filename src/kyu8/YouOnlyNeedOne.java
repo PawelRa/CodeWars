@@ -1,3 +1,5 @@
+package kyu8;
+
 public class YouOnlyNeedOne {
     public static void main(String[] args) {
         System.out.println(YouOnlyNeedOne.check(new Object[] {1,23,5,8}, 8));

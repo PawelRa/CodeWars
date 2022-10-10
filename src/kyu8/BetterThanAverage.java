@@ -1,3 +1,5 @@
+package kyu8;
+
 public class BetterThanAverage {
     public static void main(String[] args) {
         System.out.println(BetterThanAverage.betterThanAverage(new int[]{2, 3}, 5));

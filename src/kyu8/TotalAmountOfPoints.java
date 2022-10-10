@@ -1,4 +1,4 @@
-//if x > y: 3 points
+package kyu8;//if x > y: 3 points
 //        if x < y: 0 point
 //        if x = y: 1 point
 

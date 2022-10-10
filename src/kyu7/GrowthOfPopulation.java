@@ -1,3 +1,5 @@
+package kyu7;
+
 public class GrowthOfPopulation {
     public static void main(String[] args) {
         System.out.println(nbYear(1500, 5, 100, 5000));

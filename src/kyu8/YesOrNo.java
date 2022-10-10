@@ -1,3 +1,5 @@
+package kyu8;
+
 public class YesOrNo {
     public static void main(String[] args) {
         System.out.println((YesOrNo.boolToWord(true)));
