@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="GrowthOfPopulation">
-      <change beforePath="$PROJECT_DIR$/src/AbbreviateTwoWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/AbbreviateTwoWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterThanAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/BetterThanAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/BinaryAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculateAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/CalculateAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountByX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/CountByX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountPositivesSumNegatives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/CountPositivesSumNegatives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/DescendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GrowthOfPopulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu7/GrowthOfPopulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxArrayValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/MaxArrayValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MixedSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/MixedSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReduceButGrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/ReduceButGrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReversedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/ReversedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SmallestIntegerFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/SmallestIntegerFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/StringToArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringToNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/StringToNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/SumArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TotalAmountOfPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/TotalAmountOfPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YesOrNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/YesOrNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YouOnlyNeedOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kyu8/YouOnlyNeedOne.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="Grouping">
+      <change afterPath="$PROJECT_DIR$/src/kyu8/ComplementaryDNA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +39,26 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Paweł Ratajski/Documents/Programowanie/Zajavka&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GrowthOfPopulation">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kyu7" />
+      <recent name="kyu8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ComplementaryDNA">
+    <configuration name="ComplementaryDNA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.ComplementaryDNA" />
+      <module name="codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DescendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kyu8.DescendingOrder" />
       <module name="codewars" />
@@ -79,13 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestIntegerFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu8.SmallestIntegerFinder" />
-      <module name="codewars" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kyu8.StringToNumber" />
       <module name="codewars" />
@@ -95,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComplementaryDNA" />
         <item itemvalue="Application.GrowthOfPopulation" />
         <item itemvalue="Application.DescendingOrder" />
         <item itemvalue="Application.StringToNumber" />
         <item itemvalue="Application.MaxArrayValue" />
-        <item itemvalue="Application.SmallestIntegerFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665393669027</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Grouping">
+      <created>1665393972405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665393972407</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +238,7 @@
     <MESSAGE value="StringToNumber" />
     <MESSAGE value="DescendingOrder" />
     <MESSAGE value="GrowthOfPopulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="GrowthOfPopulation" />
+    <MESSAGE value="Grouping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grouping" />
   </component>
 </project>
