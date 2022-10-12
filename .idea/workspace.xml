@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="ComplementaryDNA">
-      <change afterPath="$PROJECT_DIR$/src/kyu7/RegexValidatePINcode.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="RegexValidatePINcode">
+      <change afterPath="$PROJECT_DIR$/src/kyu8/SumOfPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       <recent name="kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegexValidatePINcode">
+  <component name="RunManager" selected="Application.SumOfPositive">
     <configuration name="ComplementaryDNA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kyu8.ComplementaryDNA" />
       <module name="codewars" />
@@ -86,20 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu8.StringToNumber" />
+    <configuration name="SumOfPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.SumOfPositive" />
       <module name="codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfPositive" />
         <item itemvalue="Application.RegexValidatePINcode" />
         <item itemvalue="Application.ComplementaryDNA" />
         <item itemvalue="Application.GrowthOfPopulation" />
         <item itemvalue="Application.DescendingOrder" />
-        <item itemvalue="Application.StringToNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665397938797</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="RegexValidatePINcode">
+      <created>1665402475610</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665402475610</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +266,7 @@
     <MESSAGE value="GrowthOfPopulation" />
     <MESSAGE value="Grouping" />
     <MESSAGE value="ComplementaryDNA" />
-    <option name="LAST_COMMIT_MESSAGE" value="ComplementaryDNA" />
+    <MESSAGE value="RegexValidatePINcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegexValidatePINcode" />
   </component>
 </project>
