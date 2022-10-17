@@ -11,23 +11,23 @@ class TriangleTester {
     }
 
     public static boolean isTriangle(int a, int b, int c) {
-        int[] lists = new int[]{a, b, c};
-        int max = lists[0];
-        int maxPosition = 0;
-        for (int i = 1; i < lists.length; i++) {
-            if (lists[i] > max) {
-                max = lists[i];
-                maxPosition = i;
-            }
-        }
-        switch (maxPosition) {
-            case 0:
-                return a < b + c;
-            case 1:
-                return b < a + c;
-            case 2:
-                return c < a + b;
-        }
-        return false;
+//        int[] lists = new int[]{a, b, c};
+//        int max = lists[0];
+//        int maxPosition = 0;
+//        for (int i = 1; i < lists.length; i++) {
+//            if (lists[i] > max) {
+//                max = lists[i];
+//                maxPosition = i;
+//            }
+//        }
+//        switch (maxPosition) {
+//            case 0:
+//                return a < b + c;
+//            case 1:
+//                return b < a + c;
+//            case 2:
+//                return c < a + b;
+//        }
+        return ((a < b + c) && (b < a + c) && (c < a + b));
     }
 }
