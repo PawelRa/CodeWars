@@ -8,7 +8,7 @@ public class ArrayDiff {
 //        System.out.println(Arrays.toString(arrayDiff(new int [] {1,2}, new int[] {1})));
 //        System.out.println(Arrays.toString(arrayDiff(new int [] {1,2,2}, new int[] {1})));
 //        System.out.println(Arrays.toString(arrayDiff(new int[]{1, 2, 2}, new int[]{2})));
-        System.out.println(Arrays.toString(arrayDiff(new int[]{19, 3, 2, 11, 12, 8, 11, 0, 4, 24, 11, 11, 15, 7, 16},
+        System.out.println(Arrays.toString(arrayDiff(new int[]{19, 3, 2, 11, 12, 8, 11, 0, 4, 24, 11, 11, 15, 7, 16,77},
                 new int[]{13, 19, 10, 18, 15, 19, 2, 16, 21, 17, 18, 10, 17, 24, 10, 8, 20, 9, 16, 7, 21, 19, 9, 23, 5, 3, 11, 22, 23, 10, 11, 21, 3, 12, 23, 2})));
 //        System.out.println(Arrays.toString(arrayDiff(new int [] {1,2,2}, new int[] {})));
 //        System.out.println(Arrays.toString(arrayDiff(new int [] {}, new int[] {1,2})));
