@@ -1,6 +1,7 @@
 package kyu6;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class ArrayDiff {
     public static void main(String[] args) {
@@ -14,25 +15,26 @@ public class ArrayDiff {
     }
 
     public static int[] arrayDiff(int[] a, int[] b) {
-        if (a.length == 0 || b.length == 0) {
-            return a;
-        }
-        int counter = 0;
-        int resultLength = 0;
-        int[] temp = new int[a.length];
-        loop:
-        for (int i = 0;i<a.length;i++) {
-            for (int j = 0; j < b.length; j++) {
-                if (a[i] == b[j]) {
-                    resultLength++;
-                    continue loop;
-                }
-            }
-            temp[counter]=a[i];
-            counter++;
-        }
-        int[] result = new int[a.length-resultLength];
-        System.arraycopy(temp, 0, result, 0, result.length);
-        return result;
+//        if (a.length == 0 || b.length == 0) {
+//            return a;
+//        }
+//        int counter = 0;
+//        int resultLength = 0;
+//        int[] temp = new int[a.length];
+//        loop:
+//        for (int i = 0;i<a.length;i++) {
+//            for (int j = 0; j < b.length; j++) {
+//                if (a[i] == b[j]) {
+//                    resultLength++;
+//                    continue loop;
+//                }
+//            }
+//            temp[counter]=a[i];
+//            counter++;
+//        }
+//        int[] result = new int[a.length-resultLength];
+//        System.arraycopy(temp, 0, result, 0, result.length);
+//        return result;
+        return IntStream.of(a).filter(x -> IntStream.of(b).noneMatch(y -> y == x)).toArray();
     }
 }
