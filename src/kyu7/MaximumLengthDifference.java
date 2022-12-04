@@ -15,26 +15,22 @@ public class MaximumLengthDifference {
         int maxA1 = a1[0].length();
         int minA2 = a2[0].length();
         int maxA2 = a2[0].length();
-        for (int i = 1; i < a1.length; i++) {
-            if (a1[i].length() > maxA1) {
-                maxA1 = a1[i].length();
+        for (String s : a1) {
+            if (s.length() > maxA1) {
+                maxA1 = s.length();
             }
-            if (a1[i].length() < minA1) {
-                minA1 = a1[i].length();
-            }
-        }
-        for (int i = 0; i < a2.length; i++) {
-            if (a2[i].length() > maxA2) {
-                maxA2 = a2[i].length();
-            }
-            if (a2[i].length() < minA2) {
-                minA2 = a2[i].length();
+            if (s.length() < minA1) {
+                minA1 = s.length();
             }
         }
-        if (maxA2 - minA1 > maxA1 - minA2) {
-            return maxA2 - minA1;
-        } else {
-            return maxA1 - minA2;
+        for (String s : a2) {
+            if (s.length() > maxA2) {
+                maxA2 = s.length();
+            }
+            if (s.length() < minA2) {
+                minA2 = s.length();
+            }
         }
+        return Math.max(maxA2 - minA1, maxA1 - minA2);
     }
 }
