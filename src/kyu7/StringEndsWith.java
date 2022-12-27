@@ -10,16 +10,6 @@ public class StringEndsWith {
     }
 
     public static boolean solution(String str, String ending) {
-        String[] arrayStr = str.split("");
-        String[] arrayEnding = ending.split("");
-        for (int i = 0; i < ending.length(); i++) {
-            if (i > arrayStr.length - 1) {
-                return false;
-            }
-            if (!arrayEnding[ending.length() - 1 - i].equals(arrayStr[str.length() - 1 - i])) {
-                return false;
-            }
-        }
-        return true;
+        return str.endsWith(ending);
     }
 }
