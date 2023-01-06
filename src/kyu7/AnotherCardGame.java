@@ -11,6 +11,7 @@ public class AnotherCardGame {
         int[][] cards = new int[][]{frank,sam,tom};
         int[] winners = new int[]{0,0,0};
         int player = -1;
+        int[] actualGame = new int[]{};
         if (frank[0] == 0){
             player = 0;
         } else if (sam[0] == 0) {
@@ -18,7 +19,20 @@ public class AnotherCardGame {
         }else {
             player = 2;
         }
-
+        System.out.println("starter = " + player);
+        for (int i = player; i< 10;i++){
+            switch (i%3) {
+                case 0:
+//                    System.out.println("frank");
+                    break;
+                case 1:
+//                    System.out.println("sam");
+                    break;
+                case 2:
+//                    System.out.println("tom");
+                    break;
+            }
+        }
         return true;
     }
 }
