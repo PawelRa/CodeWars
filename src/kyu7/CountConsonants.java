@@ -15,9 +15,9 @@ public class CountConsonants {
             return 0;
         }
         int result = 0;
-        for (int i = 0; i < arrayString.length; i++) {
-            if (!(arrayString[i].equals("a") || arrayString[i].equals("e") || arrayString[i].equals("i")
-                    || arrayString[i].equals("o") || arrayString[i].equals("u")) && Character.isLetter(arrayString[i].charAt(0))) {
+        for (String s : arrayString) {
+            if (!(s.equals("a") || s.equals("e") || s.equals("i")
+                    || s.equals("o") || s.equals("u")) && Character.isLetter(s.charAt(0))) {
                 result++;
             }
         }
