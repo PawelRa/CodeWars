@@ -5,11 +5,6 @@ public class DoubleChar {
         System.out.println(doubleChar("String"));
     }
     public static String doubleChar(String s){
-        String[] arrayChar = s.split("");
-        String result = "";
-        for (String value : arrayChar) {
-            result += value + value;
-        }
-        return result;
+        return s.replaceAll(".", "$0$0");
     }
 }
