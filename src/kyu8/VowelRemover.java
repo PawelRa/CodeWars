@@ -8,9 +8,9 @@ public class VowelRemover {
     public static String shortcut(String input) {
         String[] tempArray = input.split("");
         String result = "";
-        for (int i = 0; i < tempArray.length; i++) {
-            if (!tempArray[i].equals("a") && !tempArray[i].equals("e") && !tempArray[i].equals("i") && !tempArray[i].equals("o") && !tempArray[i].equals("u")) {
-                result += tempArray[i];
+        for (String s : tempArray) {
+            if (!s.equals("a") && !s.equals("e") && !s.equals("i") && !s.equals("o") && !s.equals("u")) {
+                result += s;
             }
         }
         return result;
