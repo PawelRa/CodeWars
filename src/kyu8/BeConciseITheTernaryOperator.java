@@ -6,7 +6,6 @@ public class BeConciseITheTernaryOperator {
     }
 
     public static String describeAge(int age) {
-        String name = "You're a(n) ";
-        return String.format("%s" + (age <= 12 ? "kid" : age <= 17 ? "teenager" : age <= 64 ? "adult" : "elderly"), name);
+        return ("You're a(n) " + (age <= 12 ? "kid" : age <= 17 ? "teenager" : age <= 64 ? "adult" : "elderly"));
     }
 }
