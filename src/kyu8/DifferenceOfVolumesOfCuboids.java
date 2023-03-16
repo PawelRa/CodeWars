@@ -6,8 +6,6 @@ public class DifferenceOfVolumesOfCuboids {
     }
 
     public static int findDifference(final int[] firstCuboid, final int[] secondCuboid) {
-        int aCuboid = firstCuboid[0] * firstCuboid[1] * firstCuboid[2];
-        int bCuboid = secondCuboid[0] * secondCuboid[1] * secondCuboid[2];
-        return (aCuboid > bCuboid) ? aCuboid - bCuboid : bCuboid - aCuboid;
+        return Math.abs(firstCuboid[0] * firstCuboid[1] * firstCuboid[2] - secondCuboid[0] * secondCuboid[1] * secondCuboid[2]);
     }
 }
