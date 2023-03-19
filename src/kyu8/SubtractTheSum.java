@@ -1,5 +1,3 @@
-//https://www.codewars.com/kata/56c5847f27be2c3db20009c3/train/java
-
 package kyu8;
 
 public class SubtractTheSum {
@@ -16,8 +14,22 @@ public class SubtractTheSum {
                 "pineapple", "cucumber", "orange", "cucumber", "orange", "grape", "cherry", "apple", "cherry", "pear", "cherry", "pear", "kiwi", "pear", "kiwi", "banana", "apple",
                 "banana", "melon", "pineapple", "melon", "pineapple", "cucumber", "pineapple", "cucumber", "apple", "grape", "orange", "grape", "cherry", "grape", "cherry", "pear",
                 "cherry", "apple", "kiwi", "banana", "kiwi", "banana", "melon", "banana", "melon", "pineapple", "apple", "pineapple"};
-        System.out.println(fruits[10]);
-        String result = "apple";
-        return result;
+        if (n < 10) {
+            return fruits[n];
+        }
+        int tempValue = n;
+        do {
+            if (tempValue < 10) {
+                return fruits[tempValue];
+            }
+            String stringValue = Integer.toString(tempValue);
+            String[] value = stringValue.split("");
+            int sum = 0;
+            for (String s : value) {
+                sum += Integer.parseInt(s);
+            }
+            tempValue -= sum;
+        } while (tempValue >= 100);
+        return fruits[tempValue];
     }
 }
