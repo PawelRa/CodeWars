@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="TriangleTester refactor">
-      <change afterPath="$PROJECT_DIR$/src/kyu7/ShortestWord.java" afterDir="false" />
+    <list default="true" id="5f4e032a-d902-4713-ad03-93a7d2629741" name="Changes" comment="Welcome!">
+      <change afterPath="$PROJECT_DIR$/src/kyu8/WrongEndHead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paweł Ratajski/Documents/Programowanie/Zajavka&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Programowanie/java/codewars-java&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -45,35 +45,9 @@
       <recent name="kyu8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestWord">
-    <configuration name="LineNumbering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu7.LineNumbering" />
-      <module name="codewars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListFiltering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu7.ListFiltering" />
-      <module name="codewars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SentenceSmash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu8.SentenceSmash" />
+  <component name="RunManager" selected="Application.WrongEndHead">
+    <configuration name="DifferenceOfVolumesOfCuboids" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.DifferenceOfVolumesOfCuboids" />
       <module name="codewars" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu7.ShortestWord" />
+    <configuration name="SubtractTheSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.SubtractTheSum" />
       <module name="codewars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu7.*" />
+          <option name="PATTERN" value="kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +72,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kyu7.TriangleTester" />
+    <configuration name="VowelRemover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.VowelRemover" />
       <module name="codewars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kyu7.*" />
+          <option name="PATTERN" value="kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Welcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.Welcome" />
+      <module name="codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrongEndHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kyu8.WrongEndHead" />
+      <module name="codewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShortestWord" />
-        <item itemvalue="Application.TriangleTester" />
-        <item itemvalue="Application.LineNumbering" />
-        <item itemvalue="Application.SentenceSmash" />
-        <item itemvalue="Application.ListFiltering" />
+        <item itemvalue="Application.WrongEndHead" />
+        <item itemvalue="Application.Welcome" />
+        <item itemvalue="Application.DifferenceOfVolumesOfCuboids" />
+        <item itemvalue="Application.SubtractTheSum" />
+        <item itemvalue="Application.VowelRemover" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +298,56 @@
       <option name="project" value="LOCAL" />
       <updated>1666003674187</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Vowel remover">
+      <created>1678643283397</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678643283397</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Simply Vowel remover">
+      <created>1678729784630</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678729784630</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Subtract the Sum">
+      <created>1679127453835</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679127453835</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Subtract the Sum result">
+      <created>1679212256464</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679212256464</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Difference of Volumes of Cuboids">
+      <created>1678555165675</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678555165675</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Difference of Volumes of Cuboids - one line">
+      <created>1678987330498</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678987330498</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Welcome!">
+      <created>1668279628628</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668279628628</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,10 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CountByX" />
-    <MESSAGE value="ReduceButGrow" />
-    <MESSAGE value="start" />
-    <MESSAGE value="stringToArray" />
     <MESSAGE value="MixedSum" />
     <MESSAGE value="SumArray" />
     <MESSAGE value="BetterThanAverage" />
@@ -335,6 +380,13 @@
     <MESSAGE value="LineNumbering" />
     <MESSAGE value="TriangleTester" />
     <MESSAGE value="TriangleTester refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="TriangleTester refactor" />
+    <MESSAGE value="Vowel remover" />
+    <MESSAGE value="Simply Vowel remover" />
+    <MESSAGE value="Subtract the Sum" />
+    <MESSAGE value="Subtract the Sum result" />
+    <MESSAGE value="Difference of Volumes of Cuboids" />
+    <MESSAGE value="Difference of Volumes of Cuboids - one line" />
+    <MESSAGE value="Welcome!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome!" />
   </component>
 </project>
